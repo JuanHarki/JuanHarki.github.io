@@ -159,7 +159,7 @@ h2 {
     color: #ff00b8;
     text-shadow: 10px 10px 10px #430d5b;
     font-family: 'pricedown', sans-serif;
-    font-size: 70px;
+    font-size: 20vh;
     letter-spacing: 2;
     font-weight: 100;
     margin-bottom: 0;
@@ -167,6 +167,15 @@ h2 {
 
     z-index: 2;
 
+}
+
+a {
+    text-decoration: none;
+    color: #fffb62;
+}
+
+a:hover {
+    text-shadow: 10px 10px 10px #000000;
 }
 
 .sun {
@@ -359,26 +368,19 @@ h2 {
 
 
 
-a {
-    text-decoration: none;
-}
 
-a :hover {
-    text-shadow: none;
-    transition: 5ms;
-}
 
 
 
 
 .Contacte {
     background-color: #2e013e;
-    height: 60vh;
+    height: 70vh;
     z-index: 1;
     display: flex;
-    align-items: flex-start;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     opacity: 1;
 
 }
@@ -388,7 +390,7 @@ a :hover {
     text-shadow: 10px 10px 10px #430d5b;
 
     font-family: 'pricedown', sans-serif;
-    font-size: 70px;
+    font-size: 20vh;
     letter-spacing: 2vh;
     font-weight: 100;
     margin-bottom: 0;
