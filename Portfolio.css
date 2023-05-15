@@ -64,7 +64,7 @@ body {
 
 h1 {
     color: #FB4BBC;
-    text-shadow: 10px 10px 10px #430d5b;
+    text-shadow: 15px 10px 10px #430d5b;
     font-family: 'lazer';
     font-size: 25vh;
     margin-top: 15vh;
@@ -112,7 +112,7 @@ h2 {
 
 .profil {
     color: #0ee1f0;
-    margin-top: 32.5vh;
+    margin-top: 25vh;
     font-family: 'Streamster', sans-serif;
     font-size: 60px;
     letter-spacing: 1vh;
@@ -126,7 +126,8 @@ h2 {
     width: 45vh;
     height: 70vh;
     border-radius: 5vh;
-    box-shadow: #000000 6px 6px 10px;
+    opacity: 99%;
+    box-shadow: #000000 10px 6px 10px;
 
 
 }
@@ -134,19 +135,21 @@ h2 {
 .projeets2 {
     background-color: #701896;
     width: 45vh;
+    opacity: 99%;
     height: 70vh;
     border-radius: 5vh;
-    box-shadow: #000000 6px 6px 10px;
+    box-shadow: #000000 10px 6px 10px;
 
 
 }
 
 .projeets3 {
     background-color: #701896;
+    opacity: 99%;
     width: 45vh;
     height: 70vh;
     border-radius: 5vh;
-    box-shadow: #000000 6px 6px 10px;
+    box-shadow: #000000 10px 6px 10px;
 
 
 }
@@ -193,7 +196,7 @@ h2 {
     align-items: flex-start;
     justify-content: space-between;
     opacity: 1;
-    margin-top: 25vh;
+    margin-top: 22.5vh;
 
 
 
@@ -217,13 +220,31 @@ h2 {
     background-position: center;
     width: 50vh;
     height: 60vh;
-    display: flex;
+
     margin-right: 10vh;
     margin-top: 10vh;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
+    justify-content: center;
+
+
+
+
+}
+
+.teext {
+    width: 90%;
+    height: 75%;
+}
+
+.teext2 {
+    width: 50%;
+    height: 40%;
+}
+
+.text2 {
+    font-family: 'text';
+    font-size: 20px;
 
 
 
@@ -238,21 +259,11 @@ h2 {
 }
 
 
-.text2 {
-    font-family: 'text';
-    font-size: 10px;
-    margin-top: 30px;
-    margin-left: 7px;
-    margin-right: 5px;
-
-
-}
 
 .text3 {
     font-family: 'text';
-    font-size: 10px;
-    margin-left: 00px;
-    margin-right: 0px;
+    font-size: 20px;
+
 
 
 }
@@ -295,9 +306,6 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-
-
 
 }
 
