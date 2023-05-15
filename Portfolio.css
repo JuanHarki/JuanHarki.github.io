@@ -1,0 +1,430 @@
+@font-face {
+    font-family: "Lazer";
+    src: url("FIGHTT3_.ttf");
+}
+
+@font-face {
+    font-family: "text";
+    src: url("text.ttf");
+}
+
+@font-face {
+    font-family: "LH";
+    src: url("Lost\ Highway.ttf");
+}
+
+@font-face {
+    font-family: "Streamster";
+    src: url("Streamster.ttf");
+}
+
+@font-face {
+    font-family: "discoduck";
+    src: url("discoduck.ttf");
+}
+
+@font-face {
+    font-family: "fors";
+    src: url("FORTSSH_.TTF");
+}
+
+
+
+@font-face {
+    font-family: "pricedown";
+    src: url("Pricedown.ttf");
+}
+
+@font-face {
+    font-family: "rage";
+    src: url("rage.ttf");
+}
+
+
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+}
+
+
+
+body {
+    background-image: url("1150799.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 0;
+}
+
+
+h1 {
+    color: #FB4BBC;
+    text-shadow: 10px 10px 10px #430d5b;
+    font-family: 'lazer';
+    font-size: 25vh;
+    margin-top: 15vh;
+    transform: rotate(-7deg);
+    margin-right: 10vh;
+    margin-bottom: 0;
+    position: fixed;
+    z-index: 1;
+    letter-spacing: 2.5vh;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+
+h2 {
+    color: #fffb62;
+    position: fixed;
+    text-shadow: 6px 6px 8px #fd3c75;
+    font-family: 'Lazer';
+    font-size: 10vh;
+    margin: 0;
+    transform: rotate(-7deg);
+    margin-right: 10vh;
+    z-index: 2;
+    margin-top: 40vh;
+    letter-spacing: 2vh;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+
+}
+
+
+
+
+
+
+
+.profil {
+    color: #0ee1f0;
+    margin-top: 32.5vh;
+    font-family: 'Streamster', sans-serif;
+    font-size: 60px;
+    letter-spacing: 1vh;
+    margin-left: 5vh;
+    font-weight: 10vh;
+
+}
+
+.projeets1 {
+    background-color: #701896;
+    width: 45vh;
+    height: 70vh;
+    border-radius: 5vh;
+    box-shadow: #000000 6px 6px 10px;
+
+
+}
+
+.projeets2 {
+    background-color: #701896;
+    width: 45vh;
+    height: 70vh;
+    border-radius: 5vh;
+    box-shadow: #000000 6px 6px 10px;
+
+
+}
+
+.projeets3 {
+    background-color: #701896;
+    width: 45vh;
+    height: 70vh;
+    border-radius: 5vh;
+    box-shadow: #000000 6px 6px 10px;
+
+
+}
+
+
+.projets {
+    color: #ff00b8;
+    text-shadow: 10px 10px 10px #430d5b;
+    font-family: 'pricedown', sans-serif;
+    font-size: 70px;
+    letter-spacing: 2;
+    font-weight: 100;
+    margin-bottom: 0;
+    background-color: transparent;
+
+    z-index: 2;
+
+}
+
+.sun {
+    background-image: url(5d79ce0ba637b3fe3eb4165d_Moon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    opacity: 1;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20vh;
+
+
+}
+
+
+
+.presentation {
+    background-color: #2e013e;
+    height: 80vh;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    opacity: 1;
+    margin-top: 25vh;
+
+
+
+
+
+}
+
+.presright {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    gap: 10vh;
+}
+
+.postbackground {
+    background-image: url(box.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vh;
+    height: 60vh;
+    display: flex;
+    margin-right: 10vh;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+
+
+}
+
+.text {
+    font-family: 'text';
+    font-size: 10px;
+    margin-left: 5vh;
+
+
+}
+
+
+.text2 {
+    font-family: 'text';
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 7px;
+    margin-right: 5px;
+
+
+}
+
+.text3 {
+    font-family: 'text';
+    font-size: 10px;
+    margin-left: 00px;
+    margin-right: 0px;
+
+
+}
+
+.hotline {
+    color: #f61a8d;
+}
+
+.miami {
+    color: #59eadd
+}
+
+.LH {
+    color: #fec218;
+}
+
+.VC {
+    color: #e676a5;
+}
+
+.ST {
+    color: #bd00ff;
+}
+
+.RT {
+    color: #ff3c75;
+}
+
+.postbackground2 {
+    background-image: url(box2.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vh;
+    height: 60vh;
+    display: flex;
+    margin-right: 10vh;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+}
+
+
+
+
+
+.Projets {
+    background-color: #2e013e;
+    height: 135vh;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+
+    align-items: center;
+    opacity: 1;
+    flex-direction: column;
+    /* border-top: #fffb62 solid 3px; */
+
+
+
+}
+
+
+
+.cover {
+
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.cover2 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+a :hover {
+    text-shadow: none;
+    transition: 5ms;
+}
+
+
+
+
+.Contacte {
+    background-color: #2e013e;
+    height: 60vh;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1;
+
+}
+
+.contacte {
+    color: #ff00b8;
+    text-shadow: 10px 10px 10px #430d5b;
+
+    font-family: 'pricedown', sans-serif;
+    font-size: 70px;
+    letter-spacing: 2vh;
+    font-weight: 100;
+    margin-bottom: 0;
+    background-color: transparent;
+    margin-top: 10vh;
+    z-index: 2;
+
+}
+
+.Contacte2 {
+    background: transparent;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1;
+
+}
+
+
+
+.rs {
+    display: flex;
+    width: 70vh;
+    height: 20vh;
+}
+
+
+
+.mails {
+    color: #fffb62;
+    margin: 0;
+
+    font-family: 'lazer', sans-serif;
+    font-size: 60px;
+    letter-spacing: 2vh;
+    font-weight: 500;
+    margin-bottom: 0;
+    background-color: transparent;
+
+    z-index: 2;
+}
