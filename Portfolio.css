@@ -126,34 +126,98 @@ h2 {
     width: 45vh;
     height: 70vh;
     border-radius: 5vh;
-    opacity: 99%;
+    opacity: 95%;
     box-shadow: #000000 10px 6px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #000000;
+
+
+
 
 
 }
 
+h4 {
+
+    font-family: 'text', sans-serif;
+    font-size: 5vh;
+}
+
+
+
+
+.textprojets1 {
+    font-family: 'text';
+    font-size: 5vh;
+    font-weight: 200;
+    margin-left: 2vh;
+
+}
+
+.textprojets2 {
+    font-family: 'text';
+    font-size: 5vh;
+    font-weight: 200;
+    margin-left: 2vh;
+}
+
+.textprojets3 {
+    font-family: 'text';
+    font-size: 5vh;
+    font-weight: 200;
+    margin-left: 2vh;
+}
+
+
+
+
+
 .projeets2 {
     background-color: #701896;
     width: 45vh;
-    opacity: 99%;
+    opacity: 95%;
     height: 70vh;
     border-radius: 5vh;
     box-shadow: #000000 10px 6px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #000000;
 
 
 }
 
 .projeets3 {
     background-color: #701896;
-    opacity: 99%;
+    opacity: 95%;
     width: 45vh;
     height: 70vh;
     border-radius: 5vh;
     box-shadow: #000000 10px 6px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #000000;
 
 
 }
 
+.projeets2:hover {
+    box-shadow: #000000 6px 2px 5px;
+}
+
+.projeets3:hover {
+    box-shadow: #000000 6px 2px 5px;
+}
+
+.projeets1:hover {
+    box-shadow: #000000 6px 2px 5px;
+}
 
 .projets {
     color: #ff00b8;
@@ -169,12 +233,12 @@ h2 {
 
 }
 
-a {
+.github {
     text-decoration: none;
     color: #fffb62;
 }
 
-a:hover {
+.github:hover {
     text-shadow: 10px 10px 10px #000000;
 }
 
@@ -437,4 +501,10 @@ a:hover {
     background-color: transparent;
 
     z-index: 2;
+}
+
+
+
+a {
+    text-decoration: none;
 }
